@@ -29,6 +29,7 @@ function Page({ comments = null }: PageProps) {
       <div>
         <button onClick={() => navigate("/")}>index</button>
         <button onClick={() => navigate("/about")}>About</button>
+        <button onClick={() => navigate("/sample")}>Sample</button>
       </div>
     </>
   );
